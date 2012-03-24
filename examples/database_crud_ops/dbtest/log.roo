@@ -1,18 +1,10 @@
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-15 20:34:47
-project --topLevelPackage dbtest.com --projectName dbtest --java 6
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-15 20:34:48
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-15 20:35:05
-persistence setup --provider HIBERNATE --database MYSQL --databaseName blobdb
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-24 01:25:13
+project --topLevelPackage com.dbtest7 --projectName dbtest7 --java 6
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-24 01:25:15
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-24 01:25:20
+persistence setup --provider HIBERNATE --database MYSQL --databaseName test --userName root --password 
 entity --class ~.domain.Document
 field string --fieldName name --notNull --sizeMax 30
-field string --fieldName description --sizeMax 500
-field string --fieldName filename --notNull
-field string --fieldName contentType --notNull
-// [failed] field number --fieldName size --type int
-field number --fieldName csize --type int
 controller all --package ~.web
 perform clean
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-16 02:23:34
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-17 01:10:41
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-17 01:55:39
-// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-17 19:49:18
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-24 03:24:22
