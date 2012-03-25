@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:frame="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:url="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_dbtest7_domain_Document" object="${document}" path="/documents" update="false" z="user-managed">
+        <field:display field="owner" id="s_com_dbtest7_domain_Document_owner" object="${document}" z="Arc1hZKak2nuvEFD5KG7sS5yn3s="/>
+        <field:display field="name" id="s_com_dbtest7_domain_Document_name" object="${document}" z="L+3yKAt0mk3Hg6sYDF6MdBDnf38="/>
+        <field:display field="description" id="s_com_dbtest7_domain_Document_description" object="${document}" z="PiCXQ1NAXJ3dvF5bsCTIbqwJE1o="/>
+        <field:display field="filename" id="s_com_dbtest7_domain_Document_filename" object="${document}" z="PDY5Nh4YyCqi+hTdq1Hc/J9KTJw="/>
+        <field:display field="content" id="s_com_dbtest7_domain_Document_content" object="${document}" render="false" z="user-managed"/>
+        <field:display field="contentType" id="s_com_dbtest7_domain_Document_contentType" object="${document}" z="NlLlGemT+Cdk+JkT1P9V03NGp1g="/>
+        <field:display field="size" id="s_com_dbtest7_domain_Document_size" object="${document}" z="WHUMSArfD2Em1P+xQXtqc/jPMS0="/>
+        <field:frame field="url" id="s_com_dbtest7_domain_Document_url" object="${document}" render="true" z="user-managed"/>
+        <field:display field="category" id="s_com_dbtest7_domain_Document_category" object="${document}" z="lM+VR6H40dsVM9w9LkJua121EOI="/>
+        <field:display field="documentId" id="s_com_dbtest7_domain_Document_documentId" object="${document}" z="xEcU54ZWjDeWHBmcuUnAgEVhvA0="/>
+    </page:show>
+</div>

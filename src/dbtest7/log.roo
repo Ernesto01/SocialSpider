@@ -1,0 +1,12 @@
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-24 01:25:13
+project --topLevelPackage com.dbtest7 --projectName dbtest7 --java 6
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-24 01:25:15
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-24 01:25:20
+persistence setup --provider HIBERNATE --database MYSQL --databaseName test --userName root --password 
+entity --class ~.domain.Document
+field string --fieldName name --notNull --sizeMax 30
+controller all --package ~.web
+perform clean
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-24 03:24:22
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-24 16:38:58
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-25 03:55:07

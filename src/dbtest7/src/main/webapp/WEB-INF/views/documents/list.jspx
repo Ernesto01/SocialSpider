@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_dbtest7_domain_Document" items="${documents}" z="lBXa2bwtudKuWnoivX704LdAnQg=">
+        <table:table data="${documents}" id="l_com_dbtest7_domain_Document" path="/documents" update="false" z="53wmlkV/Kc/U0yl9kIBz18GWGSQ=">
+            <table:column id="c_com_dbtest7_domain_Document_name" property="name" z="U3xo5tax0qHD4u5yqH6WG4IsYJA="/>
+            <table:column id="c_com_dbtest7_domain_Document_description" property="description" z="olWyaxFlrX41S119nkkG9negShk="/>
+            <table:column id="c_com_dbtest7_domain_Document_filename" property="filename" z="fqHMzIJjTIRbrD3GmenZrqJ3Xp0="/>
+            <table:column id="c_com_dbtest7_domain_Document_owner" property="owner" z="QjHhQQzSEHZkBe/tM7LaPZ6GfVg="/>
+            <table:column id="c_com_dbtest7_domain_Document_category" property="category" z="ZbiReXkigojmP0gdBWkXtUiNgSE="/>
+            <table:column id="c_com_dbtest7_domain_Document_documentId" property="documentId" z="3V+xETpKM3jeejMv7IbaVeQF4Es="/>
+        </table:table>
+    </page:list>
+</div>

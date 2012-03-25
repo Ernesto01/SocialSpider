@@ -1,0 +1,13 @@
+<aspectj>
+<aspects>
+<aspect name="com.dbtest7.domain.CurrentUser_Roo_JavaBean"/>
+<aspect name="com.dbtest7.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.dbtest7.domain.Document_Roo_Entity"/>
+<aspect name="com.dbtest7.domain.Document_Roo_Configurable"/>
+<aspect name="com.dbtest7.domain.Document_Roo_ToString"/>
+<aspect name="com.dbtest7.web.DocumentController_Roo_Controller"/>
+<aspect name="com.dbtest7.domain.CurrentUser_Roo_ToString"/>
+<aspect name="com.dbtest7.domain.Document_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+
