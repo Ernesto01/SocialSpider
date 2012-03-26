@@ -10,3 +10,12 @@ perform clean
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-24 03:24:22
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-24 16:38:58
 // Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-25 03:55:07
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-25 12:28:37
+// [failed] controller class --class com.dbtest7.domain.CurrentUser 
+perform clean
+perform clean
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-25 18:44:49
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-25 18:46:00
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-25 19:02:45
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-03-25 20:18:14
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-03-25 20:21:08

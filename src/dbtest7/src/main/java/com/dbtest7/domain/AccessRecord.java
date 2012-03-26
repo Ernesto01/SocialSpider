@@ -9,5 +9,6 @@ public class AccessRecord {
 	public void addFileId(String fileId)
 	{
 		files.add(fileId);
+		totalRecords++;
 	}
 }

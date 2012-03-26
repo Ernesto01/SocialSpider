@@ -10,13 +10,14 @@ import javax.persistence.TypedQuery;
 import javax.validation.constraints.Size;
 
 
+import org.springframework.roo.addon.entity.RooEntity;
 import org.springframework.roo.addon.javabean.RooJavaBean;
 import org.springframework.roo.addon.tostring.RooToString;
-import org.springframework.roo.addon.jpa.activerecord.RooJpaActiveRecord;
+//import org.springframework.roo.addon.activerecord.RooJpaActiveRecord;
 
 @RooJavaBean
 @RooToString
-@RooJpaActiveRecord(finders = { "findUsersById" })
+//@RooJpaActiveRecord(finders = { "findUsersById" })
 public class CurrentUser {
 	enum UserType { Noob, Elite };	// Apply constraints depending on user type
 	
@@ -39,9 +40,16 @@ public class CurrentUser {
 	// Share a specific file (identified by its Id) with another user
 	void shareFile(String fileId, Long otherUserId)
 	{
-		TypedQuery<CurrentUser> userIdQuery = CurrentUser.findUsersById(otherUserId);
-		CurrentUser user = userIdQuery.getSingleResult();
-		user.addRecord(fileId);
+		
+		CurrentUser otherUser = new CurrentUser();
+		
+		/* TODO */
+		/* Find user by his user Id, once found, add fileId to other user accessRecord. */
+		// Enable next two lines if working with roo 2.1
+		//TypedQuery<CurrentUser> userIdQuery = CurrentUser.findUsersById(otherUserId);
+		//CurrentUser user = userIdQuery.getSingleResult();
+		
+		otherUser.addRecord(fileId);
 	}
 
 }
